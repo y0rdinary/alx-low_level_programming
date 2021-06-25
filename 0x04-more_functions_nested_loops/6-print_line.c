@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
 * print_line - print  a line
 * @n: numbers of straigh lines
