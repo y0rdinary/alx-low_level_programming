@@ -1,9 +1,12 @@
-#trspn - gets length of a prefix substring
-* @s: string
-* @accept: substring
-*
-* Return: returns number of bytes
-*/
+#include "holberton.h"
+
+/**
+ * _strspn - gets length of a prefix substring
+ * @s: string
+ * @accept: substring
+ *
+ * Return: returns number of bytes
+ */
 unsigned int _strspn(char *s, char *accept)
 {
 int i, j, match = 0;
