@@ -23,9 +23,8 @@ needle[j] != '\0' && haystack[i] != '\0')
 {
 i++;
 j++;
-
-if (needle[j] == '\0')
 }
+if (needle[j] == '\0')
 return (haystack + start);
 i = start + 1;
 }
