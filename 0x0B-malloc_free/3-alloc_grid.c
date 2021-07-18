@@ -7,10 +7,12 @@
  *@height: height
  *Return: an integer
  */
+
 int **alloc_grid(int width, int height)
 {
 int **grid, r, c;
-if (width <= 0 || height <= 0)  
+
+if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
@@ -21,6 +23,7 @@ c = 0;
 while (c < height)
 {
 *(grid + c) = malloc(width * sizeof(int));
+
 if (!(*(grid + c)))
 {
 while (c--)
@@ -36,5 +39,6 @@ r++;
 }
 c++;
 }
+
 return (grid);
 }
