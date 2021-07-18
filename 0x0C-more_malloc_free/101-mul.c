@@ -8,7 +8,6 @@
  *@argc: counts the arguments
  *Return: returns
  */
-
 int mul(int argc, unsigned int *argv)
 {
 if (argc > 2)
