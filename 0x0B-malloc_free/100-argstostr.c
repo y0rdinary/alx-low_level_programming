@@ -12,7 +12,6 @@ char *argstostr(int ac, char **av)
 {
 char *str;
 int i = 0, n = 0, c = 0, j = 0, count = 0;
-
 while (i < ac)
 {
 for (j = 0; av[i][j]; j++)
@@ -21,7 +20,6 @@ count++;
 }
 i++;
 }
-
 str = malloc((sizeof(char) * count)+1024);
 
 
